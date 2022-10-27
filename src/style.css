@@ -1,7 +1,6 @@
 /* styles go here */
 .fieldsets {
-  border: 1px solid black;
-  margin: 20px 0;
+  margin-bottom: 20px;
 }
 
 .form-field {
@@ -9,6 +8,6 @@
   margin-bottom: 10px;
 }
 
-.fieldsets :last-child {
-  margin: 0;
+.form-field:last-child {
+  margin-bottom: 0;
 }
